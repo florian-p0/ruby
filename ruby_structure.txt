@@ -1,0 +1,105 @@
+Ruby
+
+1. Einleitung (~500 Worte)
+	Übersicht grundsätzlicher Fakten
+		Yukihiro "Matz" Matsumoto
+		21. Dezember 1995 Ruby 0.95
+	Relevanz von Ruby
+		Umfang heutiger verwendung
+		(Ruby on Rails)
+	Übersicht über inhalt der weiteren Arbeit
+		"grep"-clone
+
+2. "historischer" Kontext
+	Situation in den 1990ern
+		schnelles Wachstum des Internets
+		verbreitung funktionaler Programmierung
+		Fokus auf Produktivität der Programmierer
+	Entstehung von Ruby
+		Ziel funktionale und imperative Programmierparadigmen in Einklang zu bringen
+		"objektorientierter als Python, mächtiger als Perl"
+		"Rubys eigentliches Ziel ist es zu erfreuen"
+		Fokus auf Flexibilität, Ausdrucksstärke und Einfachheit
+		Synthese aus Elementen der Programmiersprachen Perl, Smalltalk, Eiffel, Ada und Lisp
+		Name Anspielung auf die Programmiersprache Perl
+	Verbreitung
+		schnelle Verbreitung in Japan
+		Programming Ruby (2000)
+		Ruby on Rails (2004)
+	Version 1.9 im Jahr 2007
+		ziemlich inkompatibel zu den Vorgängerversionen
+		Semantik geändert
+		Interpreter wurde komplett neu geschrieben
+		block-lokale Variablen
+		IPv6-Unterstützung
+	internationale Norm ISO/IEC 30170 seit 2012
+	heute Open-Source-Projekt
+
+3. Features und Syntax
+	Objektorientiert
+		Klassen, Objekte, Vererbung, Polymorphismus
+		"Alles ist ein Objekt"
+	Syntax
+		Simplizität, Lesbarkeit
+		Syntax von Schleifen, Bedingungen, Methoden
+	dynamische Typisierung
+	Garbage Collection
+	Metaprogrammierung
+		dynamische Methodenerstellung
+		"code introspection"
+		DSL
+
+4. Philosophie und Entwicklererfahrung
+	Designprinzipien von Ruby
+		"optimization for developer happiness"
+		"convention over configuration"
+		"Matz’s dictum"
+		flexible Syntax
+	Community, libraries
+	Rubys Designphilosophie im Vergleich zu anderen Sprachen
+	Bedeutung "Alles ist ein Objekt"
+
+5. Performance und Skalierbarkeit
+	Performance im Vergleich zu anderen Sprachen
+	Optimierung von Ruby Code
+
+?. direkter Vergleich mit anderen Sprachen?
+
+?. Implemetierung grep-utility
+	Lesen von Dateien
+		File.read
+		each_line
+	Pattern Matching
+		regex support "/pattern/"
+	Kommandozeilenargumente
+		ARGV
+	Output Formatierung
+	Herausforderungen/Probleme bei der Implementierung
+		Performance (+Memory management?)
+		Error handling
+	subjektive Erfahrung
+		einfache Handhabung (flexible Syntax, gute Lesbarkeit)
+		schnelle Entwicklung?
+		Vergleich mit anderen Sprachen
+			z.B. zusätzliche Bibliotheken benötigt in Python
+
+6. Verwendung
+	Verwendung im Web
+		Ruby on Rails
+	scripting, Automatisierung, command-line tools
+		Libraries "Rake", "Thor"
+	Gems und Libraries
+		RubyGems
+
+7. Rubys Zukunft
+	Aktuelle Entwicklungstrends
+		steigende Anzahl an Alternativen (z.B. Node.js für Echtzeitanwendungen)
+		Ruby 3.0 (Fokus auf Performanceverbesserung)
+		ML-anwendungen (tensorflow.rb)
+		
+	Kritik
+	Einordnung in zukünftige Programmierwelt
+
+8. Schluss
+	Zusammenfassung wichtiger Informationen
+	

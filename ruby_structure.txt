@@ -14,9 +14,11 @@ Ruby
 	Situation in den 1990ern
 		schnelles Wachstum des Internets
 		verbreitung funktionaler Programmierung
+		Übergang von strukturierten zu objektorientierten Programmiersprachen
 		Fokus auf Produktivität der Programmierer
+
 	Entstehung von Ruby
-		Ziel funktionale und imperative Programmierparadigmen in Einklang zu bringen
+		Ziel funktionale und imperative Programmierparadigmen in Einklang zu bringen (multi-paradigmatisches Design)
 		"objektorientierter als Python, mächtiger als Perl"
 		"Rubys eigentliches Ziel ist es zu erfreuen"
 		Fokus auf Flexibilität, Ausdrucksstärke und Einfachheit
@@ -26,13 +28,15 @@ Ruby
 		schnelle Verbreitung in Japan
 		Programming Ruby (2000)
 		Ruby on Rails (2004)
+			David Heinemeier Hansson
 	Version 1.9 im Jahr 2007
-		ziemlich inkompatibel zu den Vorgängerversionen
+		teilweise inkompatibel zu den Vorgängerversionen
 		Semantik geändert
 		Interpreter wurde komplett neu geschrieben
 		block-lokale Variablen
 		IPv6-Unterstützung
 	internationale Norm ISO/IEC 30170 seit 2012
+		kein massiver Einfluss auf die Entwicklung des Projekts
 	heute Open-Source-Projekt
 
 3. Features und Syntax
@@ -42,6 +46,7 @@ Ruby
 	Syntax
 		Simplizität, Lesbarkeit
 		Syntax von Schleifen, Bedingungen, Methoden
+	Block-basierte Programmierung
 	dynamische Typisierung
 	Garbage Collection
 	Metaprogrammierung
@@ -60,12 +65,16 @@ Ruby
 	Bedeutung "Alles ist ein Objekt"
 
 5. Performance und Skalierbarkeit
-	Performance im Vergleich zu anderen Sprachen
+	JIT-Compiler
+	Performance i Vergangenheit oft als Nachteil angesehen
+		Verbesserung durch Ruby 3.0, JIT-Compiler
 	Optimierung von Ruby Code
+	Multithreading und Parallelität
+	
 
 ?. direkter Vergleich mit anderen Sprachen?
 
-?. Implemetierung grep-utility
+?. Implemetierung einer grep-utility
 	Lesen von Dateien
 		File.read
 		each_line

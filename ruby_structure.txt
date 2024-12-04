@@ -11,7 +11,7 @@
 		"grep"-clone
 		Syntax, Features und Designphilosophie
 
-2. "historischer" Kontext und Entwicklungsgeschichte
+1.1. "historischer" Kontext und Entwicklungsgeschichte
 	Situation in den 1990ern
 		schnelles Wachstum des Internets (zunehmende Anforderungen an Webentwicklung)
 		verbreitung funktionaler Programmierung
@@ -39,7 +39,7 @@
 		kein massiver Einfluss auf die Entwicklung des Projekts
 	heute Open-Source-Projekt
 
-3. Features und Syntax
+2. Features und Syntax
 	Objektorientiert
 		Klassen, Objekte, Vererbung, Polymorphismus
 		"Alles ist ein Objekt"
@@ -54,7 +54,7 @@
 		"code introspection"
 		DSL (Domain-Specific Languages)
 
-4. Philosophie und Entwicklererfahrung
+3. Philosophie und Entwicklererfahrung
 	Designprinzipien von Ruby
 		"optimization for developer happiness"
 		"convention over configuration"
@@ -65,7 +65,7 @@
 	Rubys Designphilosophie im Vergleich zu anderen Sprachen
 	Bedeutung "Alles ist ein Objekt"
 
-5. Performance und Skalierbarkeit
+4. Performance und Skalierbarkeit
 	JIT-Compiler seit Ruby 2.6
 		Verbesserung der Ausführungsgeschwindigkeit
 	Performance in Vergangenheit oft als Nachteil angesehen
@@ -74,10 +74,7 @@
 	Multithreading und Parallelität
 		JRuby, Rubinius
 	
-
-?. direkter Vergleich mit anderen Sprachen?
-
-6. Implemetierung einer grep-utility
+5. Implemetierung einer grep-utility
 	Lesen von Dateien
 		File.read
 		each_line
@@ -96,7 +93,7 @@
 		Vergleich mit anderen Sprachen
 			z.B. zusätzliche Bibliotheken benötigt in Python
 
-7. Verwendung
+6. Verwendung
 	Verwendung im Web
 		Ruby on Rails
 	scripting, Automatisierung, command-line tools
@@ -104,7 +101,7 @@
 	Gems und Libraries
 		RubyGems
 
-8. Rubys Zukunft
+6.1. zukünftige Verwendung und Bedeutung
 	Aktuelle Entwicklungstrends
 		steigende Anzahl an Alternativen (z.B. Node.js für Echtzeitanwendungen)
 		Ruby 3.0 (Fokus auf Performanceverbesserung)
@@ -113,6 +110,6 @@
 	Kritik
 	Einordnung in zukünftige Programmierwelt
 
-9. Schluss
+7. Schluss
 	Zusammenfassung wichtiger Informationen
 	

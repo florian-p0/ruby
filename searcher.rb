@@ -101,16 +101,19 @@ paths.each do |path|
   
   # Zusammengeführte Matches ausgeben
   merged_matches.each do |match|
+    print "\e[35m" if options[:color]
     puts "#{file}" if !options[:nohead] # Dateikopf ausgeben
-    
+    print "\e[0m" if options[:color]
     # Kontextzeilen ausgeben
     context_lines = lines[match[:start_idx]..match[:end_idx]]
     context_lines.each_with_index do |context_line, context_idx|
       line_number = match[:start_idx] + context_idx
       # Übereinstimmungen hervorheben, wenn Farbausgabe aktiviert ist
       highlight = options[:color] ? context_line.gsub(regexp) { |m| "\e[31m#{m}\e[0m" } : context_line
+      print "\e[35m" if options[:color]
       print file + ":" if options[:nohead]
-      puts "#{line_number}: #{highlight}"
+      print "\e[32m" if options[:color]
+      puts "#{line_number}: #{options[:color] ? "\e[0m" + highlight : highlight}"
     end
   end
 end

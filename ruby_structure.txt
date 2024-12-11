@@ -84,12 +84,14 @@
 		ARGV
 	Output Formatierung
 		eingebaute Stringinterpolation und Formatierungsmöglichkeiten
+		Färbung mit string.gsub, ANSI escape chars
 	Herausforderungen/Probleme bei der Implementierung
 		Performance (+Memory management?)
 		Error handling
 	subjektive Erfahrung
 		einfache Handhabung (flexible Syntax, gute Lesbarkeit)
-		schnelle Entwicklung?
+		schnelle Entwicklung
+		kompakter Programmcode
 		Vergleich mit anderen Sprachen
 			z.B. zusätzliche Bibliotheken benötigt in Python
 

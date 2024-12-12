@@ -110,10 +110,22 @@ paths.each do |path|
       line_number = match[:start_idx] + context_idx
       # Übereinstimmungen hervorheben, wenn Farbausgabe aktiviert ist
       highlight = options[:color] ? context_line.gsub(regexp) { |m| "\e[31m#{m}\e[0m" } : context_line
+      is_context_line = !context_line.match(regexp)
       print "\e[35m" if options[:color]
-      print file + ":" if options[:nohead]
+      if options[:nohead] then
+        print file
+        if is_context_line then
+          print "-"
+        else
+          print ":"
+        end
+      end
       print "\e[32m" if options[:color]
-      puts "#{line_number}: #{options[:color] ? "\e[0m" + highlight : highlight}"
+      if is_context_line then
+        puts "#{line_number}- #{options[:color] ? "\e[0m" + highlight : highlight}"
+      else
+        puts "#{line_number}: #{options[:color] ? "\e[0m" + highlight : highlight}"
+      end
     end
   end
 end

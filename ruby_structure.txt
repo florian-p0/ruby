@@ -75,18 +75,22 @@
 		JRuby, Rubinius
 	
 5. Implemetierung einer grep-utility
+	Durchsuchen von Verzeichnissen
+		Dir.glob
+		File.directory?
 	Lesen von Dateien
-		File.read
+		File.readlines
 		each_line
 	Pattern Matching
 		regex support "/pattern/"
 	Kommandozeilenargumente
 		ARGV
+		optparse
 	Output Formatierung
 		eingebaute Stringinterpolation und Formatierungsmöglichkeiten
 		Färbung mit string.gsub, ANSI escape chars
 	Herausforderungen/Probleme bei der Implementierung
-		Performance (+Memory management?)
+		Performance
 		Error handling
 	subjektive Erfahrung
 		einfache Handhabung (flexible Syntax, gute Lesbarkeit)
